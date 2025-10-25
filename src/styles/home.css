@@ -1,0 +1,49 @@
+body{
+background-color: rgb(7, 60, 107);
+}
+
+h1{
+color: rgb(249, 210, 11);
+text-align: center;
+padding: 40px;
+}
+h3{
+  color: rgb(249, 210, 11);
+  display: flex;
+}
+
+button {
+    background-color: rgb(249, 210, 11);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px; /* для красоты */
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 19px;
+   
+}
+
+button:hover {
+    background-color: #cebf72;
+}
+.container {
+    display: flex;
+    height: 100vh; /* чтобы заняло всю высоту окна */
+    gap: 90px; 
+}
+.menu{
+    width: 20%;
+    background-color: rgb(249, 210, 11);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.video-container {
+    display: flex;
+    gap: 20px; /* расстояние между видео */
+    margin-bottom: 40px; /* расстояние между контейнерами */
+    flex-wrap: wrap;
+    width: 80%;
+    box-sizing: border-box;
+}
