@@ -38,3 +38,26 @@
   font-size: 15px;
   color: rgb(7, 60, 107);
 }
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column; /* карточки ставятся друг под другом на мобильных */
+    gap: 15px;
+    padding: 5px;
+  }
+
+  .card {
+    max-width: 90%; /* карточка почти на всю ширину экрана */
+  }
+}
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+  button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+}
+

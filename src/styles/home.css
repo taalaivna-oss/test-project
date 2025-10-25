@@ -47,3 +47,31 @@ button:hover {
     width: 80%;
     box-sizing: border-box;
 }
+
+@media (max-width: 768px) {
+  .video-container {
+    flex-direction: column; /* видео под друг другом */
+    gap: 15px;
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto; /* сохраняет пропорции */
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* меню сверху, видео снизу */
+    gap: 20px;
+    height: auto; /* не фиксированная высота */
+  }
+
+  .menu {
+    width: 100%; /* меню занимает всю ширину */
+  }
+
+  .video-container {
+    width: 100%;
+  }
+}
